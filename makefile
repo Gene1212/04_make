@@ -8,6 +8,6 @@ main.o: main.c euler.h
 euler.o: euler.h euler.c
 	gcc -c euler.c
 
-
-
+run:
+	./euler
 
